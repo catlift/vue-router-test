@@ -8,7 +8,13 @@ import 'element-ui/lib/theme-chalk/index.css'
 // 使用 vue-router
 import router from './router'
 
+// 使用 vant
+import Vant from 'vant'
+import 'vant/lib/index.css'
+
 Vue.use(ElementUI)
+
+Vue.use(Vant)
 
 Vue.config.productionTip = false
 
